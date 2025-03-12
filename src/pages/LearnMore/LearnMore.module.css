@@ -1,0 +1,109 @@
+/* src/pages/LearnMore/LearnMore.module.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #2A3F5F;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 300;
+  }
+  
+  .section {
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-top: 1px solid #eee;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+    color: #2A3F5F;
+    margin-bottom: 2rem;
+  }
+  
+  .techGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .techCard {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .techCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .techCard h3 {
+    color: #2196F3;
+    margin-bottom: 1rem;
+  }
+  
+  .techList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .techList li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .processSteps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .step {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  .stepNumber {
+    width: 40px;
+    height: 40px;
+    background: #2196F3;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+    
+    .techGrid,
+    .processSteps {
+      grid-template-columns: 1fr;
+    }
+    
+    .step {
+      margin-bottom: 1.5rem;
+    }
+  }
