@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-- **Live Frontend:** [CareerSync Live](https://career-sync-murex.vercel.app/)
+- **Live Website:** [CareerSync Live](https://career-sync-murex.vercel.app/)
 
 ## Overview
 
