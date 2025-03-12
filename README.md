@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-- **Live Frontend:** [CareerSync Live](http://ai-job-matching-frontend.vercel.app)
+- **Live Frontend:** [CareerSync Live](https://career-sync-murex.vercel.app/)
 
 ## Overview
 
